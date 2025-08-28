@@ -18,21 +18,17 @@
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Animate.css -->
-     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-  <!-- Aos cdn -->
-   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-   <!-- AOS script -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Aos cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS script -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Lush Scoops</title>
 </head>
 
 <body>
     <!-- Navigation bar -->
-    <nav
-        class="relative bg-white-800/50 after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10">
+    <nav class="fixed top-0 right-0 left-0 z-1 bg-white after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10">
         <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div class="relative flex h-16 items-center justify-between">
                 <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -61,11 +57,12 @@
                     <div class="hidden sm:ml-6 sm:block">
                         <div class="flex space-x-4 pl-50 pt-4">
                             <!-- Current: "bg-gray-950/50 text-white", Default: "text-gray-300 hover:bg-white/5 hover:text-white" -->
-                            
+
                             <a href="#Home"
                                 class="rounded-md px-3 py-2 text-sm font-medium text-black-300 hover:bg-white/5 hover:text-pink-600 hover:text-base">Home</a>
                             <a href="#Sign"
-                                class="rounded-md px-3 py-2 text-sm font-medium text-black-300 hover:bg-white/5 hover:text-pink-600 hover:text-base">Know more</a>
+                                class="rounded-md px-3 py-2 text-sm font-medium text-black-300 hover:bg-white/5 hover:text-pink-600 hover:text-base">Know
+                                more</a>
                             <a href="#Menu"
                                 class="rounded-md px-3 py-2 text-sm font-medium text-black-300 hover:bg-white/5 hover:text-pink-600 hover:text-base">Menu</a>
                             <a href="#Sign"
@@ -94,11 +91,12 @@
         <el-disclosure id="mobile-menu" hidden class="block sm:hidden">
             <div class="space-y-1 px-2 pt-2 pb-3">
                 <!-- Current: "bg-gray-950/50 text-white", Default: "text-gray-300 hover:bg-white/5 hover:text-white" -->
-                 
+
                 <a href="#Home"
                     class="rounded-md px-3 py-2 text-sm font-medium text-black-300 hover:bg-white/5 hover:text-pink-600 hover:text-base">Home</a>
                 <a href="#Sign"
-                    class="rounded-md px-3 py-2 text-sm font-medium text-black-300 hover:bg-white/5 hover:text-pink-600 hover:text-base">Know more</a>
+                    class="rounded-md px-3 py-2 text-sm font-medium text-black-300 hover:bg-white/5 hover:text-pink-600 hover:text-base">Know
+                    more</a>
                 <a href="#Menu"
                     class="rounded-md px-3 py-2 text-sm font-medium text-black-300 hover:bg-white/5 hover:text-pink-600 hover:text-base">Menu</a>
                 <a href="#Sign"
@@ -108,17 +106,19 @@
     </nav>
     <!-- Home -->
     <div id="Home" class="wave-container h-lvh flex-none md:flex justify-center">
-        <div class="HomeContents pr-5">
+        <div class="HomeContents pr-5 pt-20">
             <p class="text-2xl md:text-4xl text-black">Welcome to The</p>
-            <h2 class="Homehead text-6xl md:text-9xl font-black text-black animate__animated animate__shakeY">Classic <span class="text-pink-600">Ice <br>
-                    Cream</span> Parlor</h2>
+            <h2 class="Homehead text-6xl md:text-9xl font-black text-black animate__animated animate__shakeY">Classic
+                <span class="text-pink-600">Ice <br>
+                    Cream</span> Parlor
+            </h2>
             <p class="text-black descriptionhome text-3xl mb-5">Savour the taste of traditional ice cream made with love
                 and <br> quality ingredients.</p>
-            <a href="#Classicfav"
-                class="browse px-4 py-5 bg-pink-600 border rounded-3xl text-2xl hover:bg-white hover:text-fuchsia-800">Browse
+            <a href="#Menu"
+                class="browse px-4 py-5 text-white bg-pink-600 border rounded-3xl text-2xl hover:bg-white hover:text-fuchsia-800">Explore
                 Our Classic Flavours &rarr;</a>
         </div>
-        <div class="HomeImage pl-10">
+        <div class="HomeImage pl-10 pt-20">
             <img data-aos-duration="1500" data-aos="zoom-in-up" src="./images/homeimage.png" alt="no image">
         </div>
         <svg viewBox="0 0 500 150" preserveAspectRatio="none" class="wave">
@@ -132,7 +132,8 @@
     <!-- Homesub -->
     <div id="Homesub" class="flex-none md:flex justify-center">
         <div class="HomeContents pr-10 text-center">
-            <img data-aos="zoom-in-right" data-aos-duration="1500" class="pb-8" src="./images/relive-triangle.png" alt="no image">
+            <img data-aos="zoom-in-right" data-aos-duration="1500" class="pb-8" src="./images/relive-triangle.png"
+                alt="no image">
             <h2 class="Homehead pb-4 text-6xl md:text-5xl font-black text-black">Relive the Sweet Memories <br> of
                 <br>Classic <span class="text-pink-600">Ice
                     Creams</span>
@@ -142,12 +143,15 @@
             <a href="#Menu"
                 class="browse px-4 py-5 text-white bg-pink-600 border rounded-3xl text-2xl hover:bg-white hover:text-fuchsia-800">Explore
                 Our Menu &rarr;</a>
-            <img data-aos="zoom-in-right" data-aos-duration="1500" class="pt-10" src="./images/relive-rightbottomimage.png" alt="">
+            <img data-aos="zoom-in-right" data-aos-duration="1500" class="pt-10"
+                src="./images/relive-rightbottomimage.png" alt="">
         </div>
         <div class="HomeImage pl-30">
             <img data-aos="zoom-in-left" data-aos-duration="1500" src="./images/relive-doted.png" alt="">
-            <img data-aos="zoom-in-up" data-aos-duration="1500" class="pl-10 h-100 w-auto" src="./images/homesub1.png" alt="no image">
-            <img data-aos="zoom-in-left" data-aos-duration="1500" class="pl-100" src="./images/relive-circle.png" alt="no image">
+            <img data-aos="zoom-in-up" data-aos-duration="1500" class="pl-10 h-100 w-auto" src="./images/homesub1.png"
+                alt="no image">
+            <img data-aos="zoom-in-left" data-aos-duration="1500" class="pl-100" src="./images/relive-circle.png"
+                alt="no image">
         </div>
     </div>
     <!-- Classic favorites -->
@@ -157,10 +161,9 @@
         <p class="text-black descriptionhome text-3xl pb-5 text-center">Check out our top products that our customers
             love.</p>
         <div class="favorites h-100 flex-none md:flex md:justify-center pl-15 py-5">
-            <div class="my-8 mx-4 bg-white w-65 rounded-xl"><img data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000"
-                    class="bg-yellow-200 rounded-xl px-14 py-5 mx-auto my-5" src="./images/fav1.png" alt="no img">
+            <div class="my-8 mx-4 bg-white w-65 rounded-xl"><img data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="bg-yellow-200 rounded-xl px-14 py-5 mx-auto my-5"
+                    src="./images/fav1.png" alt="no img">
                 <div class="flex justify-between px-3 text-lg">
                     <p class=" font-bold">Classic Vanilla Ice <br> Cream </p>
                     <p class="font-medium"><span class="text-orange-500"> &#9733;</span> 4.9/5</p>
@@ -173,11 +176,9 @@
                             style="color: #6d048b;"></i></a>
                 </div>
             </div>
-            <div class="my-8 mx-4 bg-white w-65 rounded-xl"><img data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000"
-                    class="bg-purple-200 h-58 w-55 rounded-xl px-14 py-5 mx-auto my-5" src="./images/fav4.png"
-                    alt="no img">
+            <div class="my-8 mx-4 bg-white w-65 rounded-xl"><img data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="bg-purple-200 h-58 w-55 rounded-xl px-14 py-5 mx-auto my-5"
+                    src="./images/fav4.png" alt="no img">
                 <div class="flex justify-between px-3 text-lg">
                     <p class=" font-bold">Chocolate Brownie <br> Sundae</p>
                     <p class="font-medium"><span class="text-orange-500"> &#9733;</span> 4.9/5</p>
@@ -190,11 +191,9 @@
                             style="color: #6d048b;"></i></a>
                 </div>
             </div>
-            <div class="my-8 mx-4 bg-white w-65 rounded-xl"><img data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000"
-                    class="bg-pink-200 h-58 w-55 rounded-xl px-14 py-5 mx-auto my-5" src="./images/fav3.png"
-                    alt="no img">
+            <div class="my-8 mx-4 bg-white w-65 rounded-xl"><img data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="bg-pink-200 h-58 w-55 rounded-xl px-14 py-5 mx-auto my-5"
+                    src="./images/fav3.png" alt="no img">
                 <div class="flex justify-between px-3 text-lg">
                     <p class=" font-bold">Strawberry <br> Shortcake </p>
                     <p class="font-medium"><span class="text-orange-500"> &#9733;</span> 4.9/5</p>
@@ -207,11 +206,9 @@
                             style="color: #6d048b;"></i></a>
                 </div>
             </div>
-            <div class="my-8 mx-4 bg-white w-65 rounded-xl"><img data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000"
-                    class="bg-lime-200 h-58 w-55 rounded-xl px-14 py-5 mx-auto my-5" src="./images/fav2.png"
-                    alt="no img">
+            <div class="my-8 mx-4 bg-white w-65 rounded-xl"><img data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="bg-lime-200 h-58 w-55 rounded-xl px-14 py-5 mx-auto my-5"
+                    src="./images/fav2.png" alt="no img">
                 <div class="flex justify-between px-3 text-lg">
                     <p class=" font-bold">Mint Chocolate<br> Chip Cone</p>
                     <p class="font-medium"><span class="text-orange-500"> &#9733;</span> 4.9/5</p>
@@ -235,28 +232,32 @@
         <p class="text-black descriptionhome text-3xl pb-5 text-center">Browse through our different categories to find
             your favorite ice cream treats.</p>
         <div class="Categories flex-none md:flex md:justify-around px-3 ml-5">
-            <div><img data-aos="zoom-in" data-aos-duration="1500" class="rounded-4xl duration-300 hover:brightness-50" src="./images/cat1.jpeg" alt="no image">
+            <div><img data-aos="zoom-in" data-aos-duration="1500" class="rounded-4xl duration-300 hover:brightness-50"
+                    src="./images/cat1.jpeg" alt="no image">
                 <div class="flex justify-between px-3 py-2 bg-pink-600 text-white rounded-3xl my-3 text-2xl">
                     <h2 class="pt-2 pb-3">Sundaes</h2><a
                         class="text-3xl bg-white text-pink-600 rounded-4xl px-2 pb-2 pt-1 hover:text-4xl" href="">
                         &rarr;</a>
                 </div>
             </div>
-            <div><img data-aos="zoom-in" class="rounded-4xl duration-300 hover:brightness-50" data-aos-duration="1500" src="./images/cate2.jpeg" alt="no image">
+            <div><img data-aos="zoom-in" class="rounded-4xl duration-300 hover:brightness-50" data-aos-duration="1500"
+                    src="./images/cate2.jpeg" alt="no image">
                 <div class="flex justify-between px-3 py-2 bg-pink-600 text-white rounded-3xl my-3 text-2xl">
                     <h2 class="pt-2 pb-3">Ice Cream Cones</h2><a
                         class="text-3xl bg-white text-pink-600 rounded-4xl px-2 pb-2 pt-1 hover:text-4xl" href="">
                         &rarr;</a>
                 </div>
             </div>
-            <div><img data-aos="zoom-in" class="rounded-4xl duration-300 hover:brightness-50" data-aos-duration="1500" src="./images/cat3.jpeg" alt="no image">
+            <div><img data-aos="zoom-in" class="rounded-4xl duration-300 hover:brightness-50" data-aos-duration="1500"
+                    src="./images/cat3.jpeg" alt="no image">
                 <div class="flex justify-between px-3 py-2 bg-pink-600 text-white rounded-3xl my-3 text-2xl">
                     <h2 class="pt-2 pb-3">Milkshakes</h2><a
                         class="text-3xl bg-white text-pink-600 rounded-4xl px-2 pb-2 pt-1 hover:text-4xl" href="">
                         &rarr;</a>
                 </div>
             </div>
-            <div><img data-aos="zoom-in" class="rounded-4xl duration-300 hover:brightness-50" data-aos-duration="1500" src="./images/cate4.jpeg" alt="no image">
+            <div><img data-aos="zoom-in" class="rounded-4xl duration-300 hover:brightness-50" data-aos-duration="1500"
+                    src="./images/cate4.jpeg" alt="no image">
                 <div class="flex justify-between px-3 py-2 bg-pink-600 text-white rounded-3xl my-3 text-2xl">
                     <h2 class="pt-2 pb-3">Seasonel Flavours</h2><a
                         class="text-3xl bg-white text-pink-600 rounded-4xl px-2 pb-2 pt-1 hover:text-4xl" href="">
@@ -270,7 +271,8 @@
         <div class="flex">
 
             <div class="text-center">
-                <img data-aos="zoom-in-left" data-aos-duration="1500" src="./images/special-triangle.png" alt="no image">
+                <img data-aos="zoom-in-left" data-aos-duration="1500" src="./images/special-triangle.png"
+                    alt="no image">
                 <div class="md:pl-40">
                     <h3 class="sumSpcl text-4xl md:text-9xl text-white">Summer <br>Special!</h3>
                     <p class="text-xl md:text-2xl text-white py-6">Buy One Sundae, Get One 50% Off!</p>
@@ -287,7 +289,8 @@
                 class="off px-5 pt-5 pb-4 text-4xl h-35 rounded-full text-center text-white border border-orange-500 border-4 w-40">
                 50% <br>OFF</p>
 
-            <img data-aos="zoom-in-up" data-aos-duration="1500" class="pl-8 md:pl-3" src="./images/sum3.png" alt="no image">
+            <img data-aos="zoom-in-up" data-aos-duration="1500" class="pl-8 md:pl-3" src="./images/sum3.png"
+                alt="no image">
             <img class="opacity-25" src="./images/sum1.png" alt="no image">
         </div>
     </div>
@@ -298,10 +301,9 @@
         <p class="text-black descriptionhome text-3xl pb-5 text-center">Check out our top products that our customers
             love.</p>
         <div class="h-100 flex-none md:flex md:justify-center pl-15 py-5">
-            <div class="my-8 mx-4 bg-white w-65 rounded-xl"><img data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000"
-                    class="bg-yellow-200 rounded-xl px-14 py-5 mx-auto my-5" src="./images/best1.png" alt="no img">
+            <div class="my-8 mx-4 bg-white w-65 rounded-xl"><img data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="bg-yellow-200 rounded-xl px-14 py-5 mx-auto my-5"
+                    src="./images/best1.png" alt="no img">
                 <div class="flex justify-between px-3 text-lg">
                     <p class=" font-bold">Rocky Road <br> Sundae </p>
                     <p class="font-medium"><span class="text-orange-500"> &#9733;</span> 4.9/5</p>
@@ -314,11 +316,9 @@
                             style="color: #6d048b;"></i></a>
                 </div>
             </div>
-            <div class="my-8 mx-4 bg-white w-65 rounded-xl"><img data-aos="flip-right"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000"
-                    class="bg-purple-200 h-58 w-55 rounded-xl px-14 py-5 mx-auto my-5" src="./images/best2.png"
-                    alt="no img">
+            <div class="my-8 mx-4 bg-white w-65 rounded-xl"><img data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="bg-purple-200 h-58 w-55 rounded-xl px-14 py-5 mx-auto my-5"
+                    src="./images/best2.png" alt="no img">
                 <div class="flex justify-between px-3 text-lg">
                     <p class=" font-bold">Chocolate Chip <br> Cookie Cone</p>
                     <p class="font-medium"><span class="text-orange-500"> &#9733;</span> 4.9/5</p>
@@ -331,11 +331,9 @@
                             style="color: #6d048b;"></i></a>
                 </div>
             </div>
-            <div class="my-8 mx-4 bg-white w-65 rounded-xl"><img data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000"
-                    class="bg-pink-200 h-58 w-55 rounded-xl px-14 py-5 mx-auto my-5" src="./images/best3.png"
-                    alt="no img">
+            <div class="my-8 mx-4 bg-white w-65 rounded-xl"><img data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="bg-pink-200 h-58 w-55 rounded-xl px-14 py-5 mx-auto my-5"
+                    src="./images/best3.png" alt="no img">
                 <div class="flex justify-between px-3 text-lg">
                     <p class=" font-bold">Strawberry <br> Sundae </p>
                     <p class="font-medium"><span class="text-orange-500"> &#9733;</span> 4.9/5</p>
@@ -348,11 +346,9 @@
                             style="color: #6d048b;"></i></a>
                 </div>
             </div>
-            <div class="my-8 mx-4 bg-white w-65 rounded-xl"><img data-aos="flip-right"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000"
-                    class="bg-lime-200 h-58 w-55 rounded-xl px-14 py-5 mx-auto my-5" src="./images/best5.png"
-                    alt="no img">
+            <div class="my-8 mx-4 bg-white w-65 rounded-xl"><img data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="bg-lime-200 h-58 w-55 rounded-xl px-14 py-5 mx-auto my-5"
+                    src="./images/best5.png" alt="no img">
                 <div class="flex justify-between px-3 text-lg">
                     <p class=" font-bold">Peach Melba<br> Sundae</p>
                     <p class="font-medium"><span class="text-orange-500"> &#9733;</span> 4.9/5</p>
@@ -371,15 +367,19 @@
     </div>
     <!-- Signup -->
     <div id="Sign" class="signup mt-300 md:mt-2 md:pb-50 pb-3 flex-none md:flex pt-50 justify-around">
-        <div><img data-aos="zoom-in-left" data-aos-duration="1500" src="./images/relive-circle.png" alt="no image"></div>
+        <div><img data-aos="zoom-in-left" data-aos-duration="1500" src="./images/relive-circle.png" alt="no image">
+        </div>
         <div>
             <h2 class="Homehead pt-8 pb-4 text-6xl md:text-6xl font-black text-black text-center">Sign up For <span
-                class="text-pink-600">Exclusive Deals </span> <br> and Updates</h2>
-            <p class="text-black descriptionhome text-3xl pb-5 text-center">Get 10% off your next order and stay updated with our latest offers.</p>
+                    class="text-pink-600">Exclusive Deals </span> <br> and Updates</h2>
+            <p class="text-black descriptionhome text-3xl pb-5 text-center">Get 10% off your next order and stay updated
+                with our latest offers.</p>
             <div class="text-center flex md:flex-none">
-                <input type="text" id="email" placeholder="Enter Your Email Address" class="bg-zinc-100 px-3 ml-10 md:px-15 md:py-3 rounded-3xl">
+                <input type="text" id="email" placeholder="Enter Your Email Address"
+                    class="bg-zinc-100 px-3 ml-10 md:px-15 md:py-3 rounded-3xl">
                 <label for="email"></label><a href=""
-                    class="browse px-4 py-3 text-white bg-pink-600 border rounded-3xl text-2xl hover:bg-white hover:text-fuchsia-800">Subscribe &rarr;</a>
+                    class="browse px-4 py-3 text-white bg-pink-600 border rounded-3xl text-2xl hover:bg-white hover:text-fuchsia-800">Subscribe
+                    &rarr;</a>
             </div>
         </div>
         <div><img data-aos="zoom-in-right" data-aos-duration="1500" src="./images/relive-triangle.png" alt=""></div>
@@ -387,7 +387,8 @@
     <!-- footer -->
     <div class="footer flex-none md:flex md:justify-around bg-fuchsia-800 text-zinc-400 px-10 py-30">
         <div><img class="h-15 w-auto pl-35 md:pl-0" src="./images/logo.png" alt="logo">
-            <p class="logoname text-pink-600 font-semibold pl-30 md:pl-0 pb-10 md:pb-0">Lush <span class="text-white">Scoops</span></p>
+            <p class="logoname text-pink-600 font-semibold pl-30 md:pl-0 pb-10 md:pb-0">Lush <span
+                    class="text-white">Scoops</span></p>
         </div>
         <div>
             <h2 class="text-center font-medium text-white text-2xl">Navigation</h2>
@@ -405,15 +406,22 @@
             </div>
         </div>
         <div>
-            <p class="text-white font-medium"><i class="fa-solid fa-location-dot" style="color: #fcfcfc;"></i>  Address:</p>
+            <p class="text-white font-medium"><i class="fa-solid fa-location-dot" style="color: #fcfcfc;"></i> Address:
+            </p>
             <p class="pb-5">M G Road,Thrissur,Kerala</p>
-            <p class="text-white font-medium"><i class="fa-solid fa-envelope-open-text" style="color: #ffffff;"></i>  Email:</p>
+            <p class="text-white font-medium"><i class="fa-solid fa-envelope-open-text" style="color: #ffffff;"></i>
+                Email:</p>
             <p class="pb-5">info@lushscoops.com</p>
         </div>
         <div>
-            <p class="text-white font-medium"><i class="fa-solid fa-phone" style="color: #ffffff;"></i>  +91 399873**90</p>
+            <p class="text-white font-medium"><i class="fa-solid fa-phone" style="color: #ffffff;"></i> +91 399873**90
+            </p>
             <p class="pb-5">Got Questions? Call us 24/7</p>
-            <p class="pt-5"><a class="bg-fuchsia-600 px-3 py-3 rounded-full mx-3" href=""><i class="fa-brands fa-facebook-f" style="color: #fcfcfc;"></i></a>   <a class="bg-fuchsia-600 px-3 py-3 rounded-full mx-3" href=""><i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></a>   <a class="bg-fuchsia-600 px-3 py-3 rounded-full mx-3" href=""><i class="fa-brands fa-instagram" style="color: #fcfcfc;"></i></a></p>
+            <p class="pt-5"><a class="bg-fuchsia-600 px-3 py-3 rounded-full mx-3" href=""><i
+                        class="fa-brands fa-facebook-f" style="color: #fcfcfc;"></i></a> <a
+                    class="bg-fuchsia-600 px-3 py-3 rounded-full mx-3" href=""><i class="fa-brands fa-x-twitter"
+                        style="color: #ffffff;"></i></a> <a class="bg-fuchsia-600 px-3 py-3 rounded-full mx-3"
+                    href=""><i class="fa-brands fa-instagram" style="color: #fcfcfc;"></i></a></p>
         </div>
     </div>
     <div class="bg-fuchsia-800">
@@ -424,7 +432,8 @@
     </div>
 </body>
 <script>
-  AOS.init();
+    AOS.init();
 </script>
+
 </html>
 <!-- data-aos-duration="1500" -->
